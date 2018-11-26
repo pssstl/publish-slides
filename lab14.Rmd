@@ -15,10 +15,21 @@ This is an R Markdown presentation. Markdown is a simple formatting syntax for a
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
-## Slide with Bullets
+## Ting-fen
 
-- Bullet 1
-- Bullet 2
+- Additions
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("additions.png")
+```
+
+
+- Deletions
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("deletions.png")
+```
+
+
+
 - Bullet 3
 
 ## Slide with R Output
